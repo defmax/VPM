@@ -1,6 +1,7 @@
 # VPM
+Vulnerable Package Maintainers
 
-This tool is to check for vulnerable package maintainers of npm packages. It gets the email ids of package maintainers and checks if the domain is expired or if using a disposable email.
+This tool checks whether the package maintainers of npm packages are vulnerable. It gets email ids of package maintainers and checks if the domain is expired or if using a disposable email.
 
 ## Installation
 
@@ -9,17 +10,19 @@ pip3 install -r requirements.txt
 ```
 
 ## Usage
-
+Check a single package
 ```bash
-
-#Check a single package
 python3 vpm.py -p express
+```
 
-#Check using package.json file. 
-#Note: Only dependencies will be checked
+Check using package.json file. 
+Note: Only dependencies will be checked not dev dependencies
+```bash
 python3 vpm.py -f package.json
+```
 
-#Saving output to a csv file. 
+Save output to a csv file. 
+```bash
 python3 vpm.py -f package.json -o check.csv
 ```
 
