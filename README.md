@@ -26,8 +26,11 @@ Save output to a csv file.
 python3 vpm.py -f package.json -o check.csv
 ```
 
+![Output](https://github.com/defmax/VPM/blob/main/static/output.gif)
+
+
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome.
 
 
 ## License
