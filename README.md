@@ -3,6 +3,11 @@ Vulnerable Package Maintainers
 
 This tool checks whether the package maintainers of npm packages are vulnerable. It gets email ids of package maintainers and checks if the domain is expired or if using a disposable email.
 
+## Prerequisite
+
+- npm
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
 ## Installation
 
 ```bash
